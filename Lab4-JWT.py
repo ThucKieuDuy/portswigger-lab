@@ -13,7 +13,7 @@ private_key = rsa.generate_private_key(
 public_key = private_key.public_key()
 
 # Step 2: Take a JWT (replace with actual token from the lab)
-token = "eyJraWQiOiI1ZjUyYjRjNC0yMWU1LTQzODMtYTg2NC0yOWY0YzZjM2Q2N2QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJwb3J0c3dpZ2dlciIsImV4cCI6MTc1MDIxODI5MSwic3ViIjoid2llbmVyIn0.ZUidKbEK9gARUqUX3Zu2cSsBFgkFGXmEEtAJQASi-0nE5ydQNfL9bBHk-8QHlTL7nRDxaqgae9nES7tmjV-n-cQlD5mAxIxmb4GVTc4rbKh7pKeRuri19TIuDBNNsABa_Q615N9wL7wCdFGSuGQkWnYAn0CGWOEXGCAw07hChnfI2Q3nGO_GgEzYuWx0Ts0u7rb3ZpaSlt-xJ7-Y_LkUA9pbT5LJfnHGioKYN4z9EK7SFeJODZDV5JbtI3k44Mn69-KHWEu-1UJTb9RtvuJah5ZKcS2us4YWZmyWAP4GLKdOOOOl9gVyOukBl5-GsoNh2LaNdE1wp1qsoi83POqvZg"  # Obtain from lab's /my-account request
+token = "eyJraWQiOiI1ZjUyYjRjNC0yMWU1LTQzODMtYTg2NC0yOWY0YzZjM2Q2N2QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJwb3J0c3dpZ2dlciIsImV4cCI6MTc1MDIxODI5MSwic3..."
 
 # Step 3: Decode the JWT (without signature verification to inspect contents)
 try:
