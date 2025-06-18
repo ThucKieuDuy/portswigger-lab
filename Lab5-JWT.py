@@ -14,7 +14,7 @@ private_key = rsa.generate_private_key(
 public_key = private_key.public_key()
 
 # STEP 2: Token từ lab (/my-account response header)
-token = "eyJraWQiOiIwYWQ4MGU2OS03MGJiLTRjMDktOWJiMC0zYTlhNDI1MDIzNDAiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJwb3J0c3dpZ2dlciIsImV4cCI6MTc1MDI2OTA5Nywic3ViIjoid2llbmVyIn0.WjBPTnvEKM-6yoS4eciDXqVuhBNx8zAG9NnMjdzOhG6Ak-cWPTiLLUyYn3ABehyBfcK5WiwQY0KMQaRKK4gKLCdtBuJfNWIM_IFDOLFUKpFymFuZrqIwL1cyz-a1plr1sKvjojrdp30rNfnQFEzoEHrNfGQv08H7hCOYcDtZv1eC_UZHdAE10Ebiq3-tLkPe_NVwGjlaQ7hiFte0DIQfcOn7aqWiAVwlaNE4WE_0VqU5lFXBShX8xnFnvq9H0yI-AoVuCCA18DC_rM_1BKqoWz-GI5m6AOgnwRMtyHpCE_ymncREfnTSOT6T0stKh7kI_r0GcUPHDMtYBoLuB0zphg"
+token = "eyJraWQiOiIwYWQ4MGU2OS03MGJiLTRjMDktOWJiMC0zYTlhNDI1MDIzNDAiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJwb3J0c3dpZ2dlciIsImV4cCI6MTc1MDI2OTA5Nywic3ViIjoid2llbmVyIn0...."
 
 # STEP 3: Decode token (without verifying signature)
 decoded_token = jwt.decode(token, options={"verify_signature": False})
